@@ -1,0 +1,6 @@
+{
+  "ConnectionString": {
+    "QuickBuyDB": "server=localhost;uid=root;pwd=Kaka2007**;database=QuickBuyDB",
+    "SqlServerConnection":  ""
+  }
+}
