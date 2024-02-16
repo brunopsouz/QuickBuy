@@ -7,7 +7,7 @@
     }
   },
   "ConnectionStrings": {
-    "QuickBuyDB": "server=MSSQLLocalDB;database=QuickBuyDB;user id=sa;password=brunosouza;trusted_connection_true;"
+    "QuickBuyDB": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=QuickBuyDB;Integrated Security=True"
   },
   "AllowedHosts": "*"
 }
