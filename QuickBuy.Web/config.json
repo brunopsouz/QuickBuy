@@ -1,6 +1,13 @@
 {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
   "ConnectionStrings": {
-    
-    "QuickBuyDB": "server=localhost;uid=root;pwd=Kaka2007**;database=QuickBuyDB"
-  }
+    "QuickBuyDB": "server=MSSQLLocalDB;database=QuickBuyDB;user id=sa;password=brunosouza;trusted_connection_true;"
+  },
+  "AllowedHosts": "*"
 }

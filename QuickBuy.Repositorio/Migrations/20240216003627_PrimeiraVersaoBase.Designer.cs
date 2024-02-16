@@ -10,8 +10,8 @@ using QuickBuy.Repositorio.Contexto;
 namespace QuickBuy.Repositorio.Migrations
 {
     [DbContext(typeof(QuickBuyContexto))]
-    [Migration("20240214002434_PrimeiraVersaoBaseSql")]
-    partial class PrimeiraVersaoBaseSql
+    [Migration("20240216003627_PrimeiraVersaoBase")]
+    partial class PrimeiraVersaoBase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -114,7 +114,8 @@ namespace QuickBuy.Repositorio.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<decimal>("Preco");
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal");
 
                     b.HasKey("Id");
 
