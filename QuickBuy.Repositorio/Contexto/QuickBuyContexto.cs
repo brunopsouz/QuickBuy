@@ -52,6 +52,17 @@ namespace QuickBuy.Repositorio.Contexto
 
                 );
 
+            modelBuilder.Entity<Produto>().HasData(
+                new Produto()
+                {
+                    Id = 1,
+                    Nome="Produto Teste 01",
+                    Descricao="Description Test",
+                    Preco=50
+                }
+
+                );
+
 
             base.OnModelCreating(modelBuilder);
         }

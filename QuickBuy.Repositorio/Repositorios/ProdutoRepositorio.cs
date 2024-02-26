@@ -11,6 +11,7 @@ namespace QuickBuy.Repositorio.Repositorios
     {
         public ProdutoRepositorio(QuickBuyContexto quickBuyContexto) : base(quickBuyContexto)
         {
+
         }
     }
 }
